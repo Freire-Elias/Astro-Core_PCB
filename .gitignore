@@ -1,0 +1,32 @@
+# --- KiCad Files ---
+# Ignorar arquivos de backup e salvamento automático
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*_autosave-*
+*.tmp
+
+# Ignorar arquivos de bloqueio (criados quando o projeto está aberto)
+*.lck
+
+# --- Output e Manufatura ---
+# Ignorar pastas comuns de exportação (Gerbers, BOM, etc)
+# Se você usa nomes diferentes, adicione-os aqui
+[Gg]erber/
+[Pp]lots/
+[Oo]utput/
+_saved_*/
+
+# --- Visualização e Simulação ---
+# Ignorar arquivos de cache de busca de componentes
+fp-info-cache
+
+# Ignorar arquivos de simulação (SPICE)
+*.out
+*.res
+*.plt
+
+# Ignorar modelos 3D baixados ou temporários 
+# (Mantenha se você salvar modelos 3D customizados dentro da pasta do projeto)
+# 3d-models/
