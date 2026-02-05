@@ -2628,7 +2628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints Personalizados:Lm2596"
+		(property "Footprint" "Footprints Personalizados:Lm2596_ALT"
 			(at 105.41 55.88 0)
 			(effects
 				(font

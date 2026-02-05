@@ -4678,7 +4678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints Personalizados:TCA9548"
+		(property "Footprint" "Footprints Personalizados:TCA9548_ALT"
 			(at 196.85 96.52 0)
 			(effects
 				(font
