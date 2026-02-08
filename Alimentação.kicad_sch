@@ -1713,14 +1713,24 @@
 		(uuid "f0e115c3-9dcd-4d97-a4ec-4a9cbb948e42")
 	)
 	(label "GND"
-		(at 152.4 93.98 0)
+		(at 152.4 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "40647cd5-44b0-4518-821e-34d05ef571a8")
+		(uuid "0780c670-d330-437c-bf23-7bc3330af822")
+	)
+	(label "GND"
+		(at 39.37 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "166e1eeb-6ddc-4ddb-a1cd-3b0da47c4356")
 	)
 	(label "GND"
 		(at 152.4 86.36 0)
@@ -1733,24 +1743,14 @@
 		(uuid "44dbd7cb-10a8-477a-a202-60302f267d67")
 	)
 	(label "0+"
-		(at 39.37 74.93 180)
+		(at 39.37 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "47a5eb16-2478-4c7c-9507-c9665b759fb0")
-	)
-	(label "5V"
-		(at 152.4 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a3d5e6f-b378-4108-94e9-0951fc74ae1b")
+		(uuid "6eb2ae40-19a9-4157-8029-1a2dfc39479c")
 	)
 	(label "5V"
 		(at 152.4 80.01 0)
@@ -1782,15 +1782,15 @@
 		)
 		(uuid "767ec2b6-b947-46f7-a0dd-1e57dc5875f2")
 	)
-	(label "GND"
-		(at 39.37 72.39 180)
+	(label "5V"
+		(at 152.4 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "7f887f0f-81ec-4657-8d84-df761a9d2415")
+		(uuid "a73388dc-9654-45db-9f52-764fd70cd62b")
 	)
 	(label "GND"
 		(at 60.96 58.42 0)

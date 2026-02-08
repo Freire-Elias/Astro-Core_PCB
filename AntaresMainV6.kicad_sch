@@ -1260,167 +1260,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1689,18 +1528,6 @@
 		(color 0 0 0 0)
 		(uuid "3698cf1f-f74f-4ff1-af67-8bbe568e9da0")
 	)
-	(junction
-		(at 166.37 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "709ec77a-09cf-409e-8c79-060b12a0bac3")
-	)
-	(junction
-		(at 166.37 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94271604-6111-4c00-a37a-192746881da9")
-	)
 	(no_connect
 		(at 111.76 91.44)
 		(uuid "15906418-236d-4552-933d-82b1cd948c92")
@@ -1965,15 +1792,6 @@
 		(uuid "80948d79-3d31-4ef6-b01b-f65d322fb46a")
 	)
 	(bus_entry
-		(at 148.59 83.82)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842c154c-2921-4ce0-9d35-def149634dc9")
-	)
-	(bus_entry
 		(at 97.79 30.48)
 		(size 2.54 2.54)
 		(stroke
@@ -2136,15 +1954,6 @@
 		(uuid "c540a93a-4022-4b68-b398-8855fe20a1f5")
 	)
 	(bus_entry
-		(at 148.59 86.36)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c685e373-82e1-4de8-9ae3-1969144cf48d")
-	)
-	(bus_entry
 		(at 97.79 110.49)
 		(size -2.54 2.54)
 		(stroke
@@ -2258,7 +2067,7 @@
 	)
 	(bus
 		(pts
-			(xy 148.59 83.82) (xy 148.59 86.36)
+			(xy 148.59 81.28) (xy 148.59 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2325,16 +2134,6 @@
 			(type default)
 		)
 		(uuid "150bebed-3952-4271-b4e1-b5b984184dc8")
-	)
-	(wire
-		(pts
-			(xy 162.56 83.82) (xy 166.37 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1562ee3c-0a9f-4be8-a839-d9602a3bc81d")
 	)
 	(wire
 		(pts
@@ -2596,16 +2395,6 @@
 		)
 		(uuid "41a5801a-dd9b-48e9-9f8e-df234fd0589d")
 	)
-	(bus
-		(pts
-			(xy 148.59 86.36) (xy 148.59 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46391e2e-5b64-43a5-be51-dac4ff001298")
-	)
 	(wire
 		(pts
 			(xy 100.33 48.26) (xy 106.68 48.26)
@@ -2625,16 +2414,6 @@
 			(type default)
 		)
 		(uuid "49b1a544-8542-48f4-8546-b8a352bb1817")
-	)
-	(wire
-		(pts
-			(xy 170.18 83.82) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52362369-d7ce-4e3b-baf4-eda3541e6133")
 	)
 	(wire
 		(pts
@@ -2668,16 +2447,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 175.26 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a8580d2-edbe-49bd-be2f-a1b19c4cbb00")
-	)
-	(wire
-		(pts
 			(xy 142.24 134.62) (xy 146.05 134.62)
 		)
 		(stroke
@@ -2705,16 +2474,6 @@
 			(type default)
 		)
 		(uuid "6579c4a4-e555-4711-b2c1-e3cb590f8a32")
-	)
-	(wire
-		(pts
-			(xy 162.56 86.36) (xy 162.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67206db4-8b20-4b56-be6f-e2b5b89debe9")
 	)
 	(wire
 		(pts
@@ -2858,16 +2617,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 91.44) (xy 170.18 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0fec7f-d400-48d0-84af-6a48113ec495")
-	)
-	(wire
-		(pts
 			(xy 100.33 116.84) (xy 111.76 116.84)
 		)
 		(stroke
@@ -2925,16 +2674,6 @@
 			(type default)
 		)
 		(uuid "89463fe6-c2f8-4c82-853e-ef6fa0d0d3f9")
-	)
-	(wire
-		(pts
-			(xy 162.56 88.9) (xy 162.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894b413e-2351-493f-8c64-cb489be08fbd")
 	)
 	(bus
 		(pts
@@ -3108,26 +2847,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 166.37 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5355a9-2d86-46ff-ab5a-ceccecb86efd")
-	)
-	(wire
-		(pts
-			(xy 166.37 83.82) (xy 170.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad66d7c5-9e8a-4ace-ba8e-a230702fde62")
-	)
-	(wire
-		(pts
 			(xy 100.33 27.94) (xy 106.68 27.94)
 		)
 		(stroke
@@ -3145,16 +2864,6 @@
 			(type default)
 		)
 		(uuid "b2731dfc-b577-4953-b8aa-8effad2393bd")
-	)
-	(wire
-		(pts
-			(xy 151.13 88.9) (xy 162.56 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b368680e-5a8f-412a-be28-d284b46f4ee6")
 	)
 	(bus
 		(pts
@@ -3358,16 +3067,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 91.44) (xy 170.18 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0f0b853-13b8-43c9-a8fc-fc29e7d37bfd")
-	)
-	(wire
-		(pts
 			(xy 87.63 34.29) (xy 95.25 34.29)
 		)
 		(stroke
@@ -3385,16 +3084,6 @@
 			(type default)
 		)
 		(uuid "e19730d8-edf7-442a-b545-c50f101b38bd")
-	)
-	(wire
-		(pts
-			(xy 170.18 88.9) (xy 175.26 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6f83dcc-db78-4fba-a7bc-52026e3a5d6a")
 	)
 	(bus
 		(pts
@@ -3466,16 +3155,6 @@
 		)
 		(uuid "fa79cb36-925c-4b89-a37e-43b1dabb3971")
 	)
-	(bus
-		(pts
-			(xy 148.59 81.28) (xy 148.59 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc25d8cd-6342-45f7-b0a4-47aad18f79ee")
-	)
 	(wire
 		(pts
 			(xy 87.63 81.28) (xy 95.25 81.28)
@@ -3485,16 +3164,6 @@
 			(type default)
 		)
 		(uuid "fcdeca47-8768-4edc-8dbc-28b8065d97a1")
-	)
-	(wire
-		(pts
-			(xy 151.13 86.36) (xy 162.56 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd384f1a-d545-4f83-8be4-d2146b313121")
 	)
 	(label "SV_2"
 		(at 151.13 123.19 0)
@@ -3536,7 +3205,7 @@
 		)
 		(uuid "0a951ff4-e8c1-4fa0-a325-dd86b61b4a38")
 	)
-	(label "S2"
+	(label "S1"
 		(at 146.05 121.92 180)
 		(effects
 			(font
@@ -3545,16 +3214,6 @@
 			(justify right bottom)
 		)
 		(uuid "0c2d1300-b959-463e-9ed3-dcf26ecb3a9a")
-	)
-	(label "GND"
-		(at 151.13 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10a2599c-6bc1-4d65-a340-c995a44d1886")
 	)
 	(label "SIG"
 		(at 100.33 48.26 0)
@@ -3816,7 +3475,7 @@
 		)
 		(uuid "addb30c3-ff60-4b29-826e-e7dd5c60f348")
 	)
-	(label "S3"
+	(label "S0"
 		(at 146.05 119.38 180)
 		(effects
 			(font
@@ -3976,7 +3635,7 @@
 		)
 		(uuid "d824ac87-2414-4d06-9aaa-e81204340dce")
 	)
-	(label "S1"
+	(label "S2"
 		(at 146.05 111.76 180)
 		(effects
 			(font
@@ -3985,16 +3644,6 @@
 			(justify right bottom)
 		)
 		(uuid "d8d9e3af-aa8a-442c-9d4f-e42061b8648e")
-	)
-	(label "5V"
-		(at 151.13 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e57f3597-86ae-4bdd-abae-a4db295c354c")
 	)
 	(label "S1"
 		(at 100.33 35.56 0)
@@ -4026,7 +3675,7 @@
 		)
 		(uuid "ef5b9d6e-fcff-4966-9d1e-5164420bc51e")
 	)
-	(label "S0"
+	(label "S3"
 		(at 146.05 114.3 180)
 		(effects
 			(font
@@ -4055,76 +3704,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff6e48b5-3ec5-4ea6-8092-4a4c1e7b698e")
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 180.34 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18f0199d-4e58-4ea1-9e42-8343bb7ec68c")
-		(property "Reference" "RaspberryAL1"
-			(at 181.61 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 181.61 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 180.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1aeaf95-5a90-4461-9db6-41ea7471f65a")
-		)
-		(pin "2"
-			(uuid "50d825eb-79fd-452b-9951-a0b1ee13bc91")
-		)
-		(instances
-			(project ""
-				(path "/249a3426-39cb-4659-b770-3d6abd5cd250"
-					(reference "RaspberryAL1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Componentes Personalizados:ESP32-DEVKIT-V1")
@@ -4555,7 +4134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64fd814e-85b6-4d11-8ad6-006509aa34d1")
-		(property "Reference" "J2"
+		(property "Reference" "SV_2"
 			(at 172.72 119.3799 0)
 			(effects
 				(font
@@ -4612,76 +4191,7 @@
 		(instances
 			(project ""
 				(path "/249a3426-39cb-4659-b770-3d6abd5cd250"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 166.37 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90c03470-9406-4d9d-93d2-b589355539f0")
-		(property "Reference" "470uF1"
-			(at 164.084 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 161.29 95.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.50mm"
-			(at 167.3352 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 166.37 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3dbd84d2-94bb-40e2-9aff-40818463c6ab")
-		)
-		(pin "1"
-			(uuid "1a175944-9e5e-4f24-8d7f-073db855465b")
-		)
-		(instances
-			(project ""
-				(path "/249a3426-39cb-4659-b770-3d6abd5cd250"
-					(reference "470uF1")
+					(reference "SV_2")
 					(unit 1)
 				)
 			)
@@ -4967,7 +4477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9e22957-e8ff-489b-ad9f-e6f682fbc22c")
-		(property "Reference" "J1"
+		(property "Reference" "SV_1"
 			(at 172.72 109.2199 0)
 			(effects
 				(font
@@ -5024,7 +4534,7 @@
 		(instances
 			(project ""
 				(path "/249a3426-39cb-4659-b770-3d6abd5cd250"
-					(reference "J1")
+					(reference "SV_1")
 					(unit 1)
 				)
 			)
