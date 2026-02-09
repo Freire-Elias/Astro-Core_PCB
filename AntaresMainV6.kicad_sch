@@ -639,171 +639,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1945,15 +1780,6 @@
 		(uuid "c208e3c3-c8df-49ce-b01d-3526c2196d3b")
 	)
 	(bus_entry
-		(at 97.79 26.67)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c540a93a-4022-4b68-b398-8855fe20a1f5")
-	)
-	(bus_entry
 		(at 97.79 110.49)
 		(size -2.54 2.54)
 		(stroke
@@ -1961,6 +1787,15 @@
 			(type default)
 		)
 		(uuid "d9eba9a8-511e-4b0b-befc-5728aac71555")
+	)
+	(bus_entry
+		(at 148.59 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0b538c-7467-47ce-8be7-f030fb242259")
 	)
 	(bus_entry
 		(at 97.79 83.82)
@@ -2044,6 +1879,16 @@
 			(type default)
 		)
 		(uuid "052cabd6-ed3e-4aef-b7eb-03be9b296d20")
+	)
+	(bus
+		(pts
+			(xy 148.59 96.52) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "054b21a8-07c3-4551-982d-695763d49d73")
 	)
 	(bus
 		(pts
@@ -2307,7 +2152,7 @@
 	)
 	(bus
 		(pts
-			(xy 97.79 25.4) (xy 97.79 26.67)
+			(xy 97.79 25.4) (xy 97.79 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2324,16 +2169,6 @@
 			(type default)
 		)
 		(uuid "3341038f-5c9c-47b7-b7a5-de837f684ff5")
-	)
-	(wire
-		(pts
-			(xy 87.63 29.21) (xy 95.25 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37f97cb6-e07a-4d39-93e1-e7364b94b57b")
 	)
 	(bus
 		(pts
@@ -2557,7 +2392,7 @@
 	)
 	(bus
 		(pts
-			(xy 148.59 91.44) (xy 148.59 99.06)
+			(xy 148.59 91.44) (xy 148.59 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2847,6 +2682,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb788f0-1da6-40c6-bb2a-0716ecf87f82")
+	)
+	(wire
+		(pts
 			(xy 100.33 27.94) (xy 106.68 27.94)
 		)
 		(stroke
@@ -2864,16 +2709,6 @@
 			(type default)
 		)
 		(uuid "b2731dfc-b577-4953-b8aa-8effad2393bd")
-	)
-	(bus
-		(pts
-			(xy 97.79 26.67) (xy 97.79 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7f73d12-02a9-4380-8f50-da4842eb9d9f")
 	)
 	(wire
 		(pts
@@ -3365,16 +3200,6 @@
 		)
 		(uuid "5a0e166d-2828-4a1d-a298-f93100364c55")
 	)
-	(label "5V"
-		(at 95.25 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f884812-8d70-464e-90c5-beb8a432e90c")
-	)
 	(label "IN4"
 		(at 100.33 127 0)
 		(effects
@@ -3554,6 +3379,16 @@
 			(justify right bottom)
 		)
 		(uuid "bfc49985-716f-4ce0-8e5e-cb268d4ccc91")
+	)
+	(label "GND"
+		(at 151.13 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1a4bbef-4981-4e3a-a8aa-9610619addfc")
 	)
 	(label "TX"
 		(at 151.13 104.14 0)
@@ -4056,6 +3891,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 171.45 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5325573b-ce85-4873-b4e0-089e623a3444")
+		(property "Reference" "RaspCOM1"
+			(at 172.72 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 172.72 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce5e3473-111b-4ab8-9e63-fae679d917bf")
+		)
+		(pin "3"
+			(uuid "ed4544a7-ec55-49b2-b693-c803a73b789c")
+		)
+		(pin "1"
+			(uuid "ab6e41d2-c836-424d-9dd9-549049eab457")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250"
+					(reference "RaspCOM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 87.63 125.73 180)
 		(unit 1)
@@ -4192,76 +4100,6 @@
 			(project ""
 				(path "/249a3426-39cb-4659-b770-3d6abd5cd250"
 					(reference "SV_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 171.45 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb4d0b4c-5cf5-4b19-99bc-7739bc1601c4")
-		(property "Reference" "RaspberryTXRX1"
-			(at 172.72 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 172.72 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 171.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 171.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "094cd290-f024-4e5a-811f-a9427ab99f1a")
-		)
-		(pin "2"
-			(uuid "07b90e8e-223d-4e8d-807d-9f9a16b6f104")
-		)
-		(instances
-			(project ""
-				(path "/249a3426-39cb-4659-b770-3d6abd5cd250"
-					(reference "RaspberryTXRX1")
 					(unit 1)
 				)
 			)
@@ -4572,16 +4410,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "5V" output
-			(at 87.63 29.21 0)
-			(uuid "e02a5f9a-d8c7-4190-930f-2967127ce7c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "5V_LM" output
