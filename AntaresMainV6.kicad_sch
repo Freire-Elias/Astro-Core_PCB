@@ -4454,7 +4454,7 @@
 		)
 		(uuid "0a951ff4-e8c1-4fa0-a325-dd86b61b4a38")
 	)
-	(label "OUT3"
+	(label "OUT5"
 		(at 146.05 127 180)
 		(effects
 			(font
@@ -4494,7 +4494,7 @@
 		)
 		(uuid "14de7fd0-d7f9-4627-b488-c083e9f79cbc")
 	)
-	(label "OUT7"
+	(label "OUT6"
 		(at 100.33 95.25 0)
 		(effects
 			(font
@@ -4514,7 +4514,7 @@
 		)
 		(uuid "1d347488-6121-412c-a0d5-e54c189c0d7d")
 	)
-	(label "OUT5"
+	(label "OUT1"
 		(at 146.05 114.3 180)
 		(effects
 			(font
@@ -4524,7 +4524,7 @@
 		)
 		(uuid "1e80bd1f-8050-4703-aba9-bb782a408835")
 	)
-	(label "Extra"
+	(label "SV_3"
 		(at 151.13 143.51 0)
 		(effects
 			(font
@@ -4594,8 +4594,8 @@
 		)
 		(uuid "2a4b8070-0f89-4709-bd41-cc499930001e")
 	)
-	(label "Extra"
-		(at 101.6 106.68 0)
+	(label "SV_3"
+		(at 100.33 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4604,7 +4604,7 @@
 		)
 		(uuid "2c5a7d98-8f9f-4b0a-be58-b1a0142f4835")
 	)
-	(label "RX"
+	(label "TX"
 		(at 151.13 101.6 0)
 		(effects
 			(font
@@ -4634,7 +4634,7 @@
 		)
 		(uuid "3452b21c-2c01-471b-8813-e193afec88a8")
 	)
-	(label "OUT2"
+	(label "OUT3"
 		(at 146.05 121.92 180)
 		(effects
 			(font
@@ -4664,7 +4664,7 @@
 		)
 		(uuid "3cc2efc9-40af-4692-b509-a7d93bff6150")
 	)
-	(label "OUT6"
+	(label "OUT7"
 		(at 100.33 91.44 0)
 		(effects
 			(font
@@ -4714,7 +4714,7 @@
 		)
 		(uuid "56b9e633-d1d5-4b4c-b050-0d34ec0388a7")
 	)
-	(label "SCL"
+	(label "SDA"
 		(at 146.05 106.68 180)
 		(effects
 			(font
@@ -4734,7 +4734,7 @@
 		)
 		(uuid "5b755a19-3ed7-4489-93ab-105ab995174b")
 	)
-	(label "IN4"
+	(label "IN3"
 		(at 100.33 127 0)
 		(effects
 			(font
@@ -4794,7 +4794,7 @@
 		)
 		(uuid "8a444232-8899-46c7-8096-09febec04988")
 	)
-	(label "3.3v"
+	(label "5V_LM"
 		(at 151.13 140.97 0)
 		(effects
 			(font
@@ -4834,7 +4834,7 @@
 		)
 		(uuid "9a0cde60-e583-4878-8813-c0af11666d48")
 	)
-	(label "SDA"
+	(label "SCL"
 		(at 100.33 129.54 0)
 		(effects
 			(font
@@ -4964,7 +4964,7 @@
 		)
 		(uuid "bf0acff0-524a-4fd3-ba70-764c951aeb8c")
 	)
-	(label "IN3"
+	(label "IN4"
 		(at 100.33 124.46 0)
 		(effects
 			(font
@@ -4994,7 +4994,7 @@
 		)
 		(uuid "bfc49985-716f-4ce0-8e5e-cb268d4ccc91")
 	)
-	(label "OUT1"
+	(label "OUT4"
 		(at 146.05 119.38 180)
 		(effects
 			(font
@@ -5024,7 +5024,7 @@
 		)
 		(uuid "c27f859c-c711-4169-a361-e56ecc96b65c")
 	)
-	(label "TX"
+	(label "RX"
 		(at 151.13 104.14 0)
 		(effects
 			(font
@@ -5194,7 +5194,7 @@
 		)
 		(uuid "fe936edc-5f23-41d2-9b19-83674a80fb36")
 	)
-	(label "OUT4"
+	(label "OUT2"
 		(at 146.05 111.76 180)
 		(effects
 			(font
@@ -5533,7 +5533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "336279a8-6d49-4ad8-9fd5-dff2508a7039")
-		(property "Reference" "Extra_4"
+		(property "Reference" "SV_3"
 			(at 172.72 139.6999 0)
 			(effects
 				(font
@@ -5590,7 +5590,7 @@
 		(instances
 			(project "AntaresMainV6"
 				(path "/249a3426-39cb-4659-b770-3d6abd5cd250"
-					(reference "Extra_4")
+					(reference "SV_3")
 					(unit 1)
 				)
 			)
