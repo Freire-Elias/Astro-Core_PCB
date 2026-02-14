@@ -16,7 +16,7 @@ Este repositório contém todos os arquivos de hardware (PCB e esquemáticos) de
 
 ## 🖼️ Renderização 3D da Placa
 
-![PCB 3D Render](docs/images/pcb_3d.png)
+![PCB 3D Render](docs/images/Antares-Core.step)
 
 ---
 
