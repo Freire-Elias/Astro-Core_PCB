@@ -17,6 +17,7 @@
 [Pp]lots/
 [Oo]utput/
 _saved_*/
+production/
 
 # --- Visualização e Simulação ---
 # Ignorar arquivos de cache de busca de componentes

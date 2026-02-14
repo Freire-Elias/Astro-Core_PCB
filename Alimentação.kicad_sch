@@ -304,6 +304,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -572,6 +711,12 @@
 		(color 0 0 0 0)
 		(uuid "9c57c892-f7a3-4b3d-bb62-6db0a6607356")
 	)
+	(junction
+		(at 26.67 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4f0c0f9-b05e-480c-bb3f-6b6d71fdbf45")
+	)
 	(bus_entry
 		(at 58.42 55.88)
 		(size 2.54 2.54)
@@ -798,13 +943,23 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 87.63) (xy 39.37 87.63)
+			(xy 22.86 87.63) (xy 26.67 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "962fbdab-9247-4920-866c-6bc05e79da17")
+	)
+	(wire
+		(pts
+			(xy 26.67 87.63) (xy 39.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5eadf9-c136-4f45-9736-51c578908ea1")
 	)
 	(wire
 		(pts
@@ -1127,6 +1282,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 26.67 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "954a716b-7f2b-4746-ac87-3ce635502f0d")
+		(property "Reference" "100nf10"
+			(at 33.274 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 28.448 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 27.6352 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a7478b7-52eb-4a5c-a972-9a72ecd4e4a2")
+		)
+		(pin "2"
+			(uuid "787e65f2-97d7-473d-82e4-6e1cca7208d3")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/04caba75-d4d9-4708-a614-98dfb451e114"
+					(reference "100nf10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Componentes Personalizados:Lm2596")
 		(at 105.41 55.88 0)
 		(unit 1)
@@ -1330,6 +1552,72 @@
 			(project "AntaresMainV6"
 				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/04caba75-d4d9-4708-a614-98dfb451e114"
 					(reference "47kOhm1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 26.67 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec6a74f2-82f2-4939-af3a-8f209b0f1d05")
+		(property "Reference" "#PWR013"
+			(at 26.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 26.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e299517d-5ada-4bab-b240-b9cf38e95e9d")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/04caba75-d4d9-4708-a614-98dfb451e114"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

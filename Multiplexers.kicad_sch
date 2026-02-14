@@ -1676,6 +1676,282 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 175.26 73.66)
@@ -1684,10 +1960,46 @@
 		(uuid "0c36c8ab-7c6c-4fa1-ac96-7ed9885d2e98")
 	)
 	(junction
+		(at 255.27 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26f28c66-7694-45d1-8005-9072568ccfc4")
+	)
+	(junction
+		(at 256.54 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77be4cbf-b031-4f37-9861-bab078f49bb3")
+	)
+	(junction
 		(at 175.26 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88cd2d21-4c61-4f69-948f-e6d30584c8be")
+	)
+	(junction
+		(at 255.27 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fd7d85b-a630-4873-8fc8-752f36ad9f79")
+	)
+	(junction
+		(at 220.98 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9648c090-0741-4444-9c0b-f78db8e3fdfa")
+	)
+	(junction
+		(at 228.6 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b29c40f5-650c-4420-ae82-c4196ae33e97")
+	)
+	(junction
+		(at 255.27 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1bc7522-0541-4cd8-a6fd-7dd32e6b1b80")
 	)
 	(no_connect
 		(at 257.81 130.81)
@@ -1959,6 +2271,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 154.94) (xy 256.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1005a1de-c6d6-4d25-85f2-b906caeb1b0d")
+	)
+	(wire
+		(pts
 			(xy 214.63 93.98) (xy 222.25 93.98)
 		)
 		(stroke
@@ -1966,6 +2288,16 @@
 			(type default)
 		)
 		(uuid "14c4a6de-ca7c-406c-bfc8-ac521ab6ba55")
+	)
+	(wire
+		(pts
+			(xy 228.6 146.05) (xy 231.14 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161ac1e0-5d56-43e0-9c1b-ebe4abbe9a64")
 	)
 	(bus
 		(pts
@@ -2029,7 +2361,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 113.03) (xy 257.81 113.03)
+			(xy 247.65 113.03) (xy 255.27 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2057,6 +2389,16 @@
 		)
 		(uuid "3797bde4-8afa-453f-a405-45d6a69555ed")
 	)
+	(wire
+		(pts
+			(xy 256.54 153.67) (xy 257.81 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f997d6d-d7b6-4bf0-b8eb-74b2ce3a2dc4")
+	)
 	(bus
 		(pts
 			(xy 224.79 83.82) (xy 224.79 88.9)
@@ -2079,7 +2421,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 63.5) (xy 229.87 63.5)
+			(xy 255.27 93.98) (xy 257.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44450f83-8c89-42fd-adde-0c001f1251dc")
+	)
+	(wire
+		(pts
+			(xy 214.63 63.5) (xy 220.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2149,13 +2501,33 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 146.05) (xy 231.14 146.05)
+			(xy 227.33 146.05) (xy 228.6 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "628985a3-610e-4e03-9266-e517bc896ca3")
+	)
+	(wire
+		(pts
+			(xy 265.43 114.3) (xy 255.27 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6327f92c-9c50-40e2-93fe-67c67aacbf2f")
+	)
+	(wire
+		(pts
+			(xy 255.27 119.38) (xy 255.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ab98dc-753a-43d0-8450-e9831dc2bf76")
 	)
 	(wire
 		(pts
@@ -2176,6 +2548,16 @@
 			(type default)
 		)
 		(uuid "6741080b-d90f-42dc-9303-ea8af9b82779")
+	)
+	(wire
+		(pts
+			(xy 255.27 114.3) (xy 255.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9761f6-bcff-4fd8-bc43-b19f5f9ef684")
 	)
 	(bus
 		(pts
@@ -2289,13 +2671,23 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 118.11) (xy 257.81 118.11)
+			(xy 247.65 118.11) (xy 255.27 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "92b48176-9bfe-4446-8de6-e234d6baba3e")
+	)
+	(wire
+		(pts
+			(xy 255.27 113.03) (xy 257.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974c1571-bdc6-4302-a2df-2e69f9e5e127")
 	)
 	(wire
 		(pts
@@ -2365,7 +2757,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a7a07b62-2345-4748-980d-0d17e1d2dfdb")
+		(uuid "a71669a1-268b-487c-b2d7-37eb96373669")
 	)
 	(bus
 		(pts
@@ -2429,6 +2821,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 119.38) (xy 255.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba78150f-274c-4ef0-a934-b43dd010ef82")
+	)
+	(wire
+		(pts
 			(xy 241.3 102.87) (xy 257.81 102.87)
 		)
 		(stroke
@@ -2456,6 +2858,16 @@
 			(type default)
 		)
 		(uuid "bfa0dcc8-ecb6-4acd-88bf-54514e5e230f")
+	)
+	(wire
+		(pts
+			(xy 228.6 147.32) (xy 228.6 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d804c5-ee6c-40a8-a91f-c1f794c39c8b")
 	)
 	(wire
 		(pts
@@ -2499,6 +2911,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 147.32) (xy 228.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a1e519-35ed-4d9d-b4c3-958757a2921d")
+	)
+	(wire
+		(pts
+			(xy 220.98 63.5) (xy 229.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c59911-d595-4c05-a890-6054ea1d3e04")
+	)
+	(wire
+		(pts
 			(xy 214.63 121.92) (xy 222.25 121.92)
 		)
 		(stroke
@@ -2506,6 +2938,26 @@
 			(type default)
 		)
 		(uuid "d1659746-12dd-4a1b-b3d2-bcb978f6f9db")
+	)
+	(wire
+		(pts
+			(xy 265.43 95.25) (xy 255.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b1e6d4-6308-4ea4-bc46-a6cd4115d6f9")
+	)
+	(wire
+		(pts
+			(xy 255.27 118.11) (xy 257.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d345ea9b-7c0a-45ed-b137-872dffeb4f5d")
 	)
 	(wire
 		(pts
@@ -2549,6 +3001,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 95.25) (xy 255.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd949b41-3fc6-42ea-bdaf-bc7275eec08e")
+	)
+	(wire
+		(pts
 			(xy 241.3 158.75) (xy 257.81 158.75)
 		)
 		(stroke
@@ -2566,6 +3028,16 @@
 			(type default)
 		)
 		(uuid "e17f2023-b947-4a40-908b-8029ab2fec65")
+	)
+	(wire
+		(pts
+			(xy 256.54 154.94) (xy 256.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fdff9a-f314-47ca-a061-7cdb9c44fb24")
 	)
 	(wire
 		(pts
@@ -2589,7 +3061,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 153.67) (xy 257.81 153.67)
+			(xy 247.65 153.67) (xy 256.54 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2619,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 93.98) (xy 257.81 93.98)
+			(xy 247.65 93.98) (xy 255.27 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3158,6 +3630,73 @@
 		(uuid "ec3e79a4-56ae-4877-af33-49b9334d8f2d")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 215.9 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ca65528-a712-40c5-a9dc-2b43e0cfe49f")
+		(property "Reference" "100nf7"
+			(at 209.042 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 212.852 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 219.71 146.3548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b382f7b-0e81-470f-8044-1047fd39171b")
+		)
+		(pin "2"
+			(uuid "ee448a8e-7420-4437-aad0-0948efa4f53a")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "100nf7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x07_Socket")
 		(at 262.89 86.36 0)
 		(unit 1)
@@ -3243,6 +3782,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 273.05 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "237e63a6-fedf-45b5-8032-9544c7cc7043")
+		(property "Reference" "#PWR07"
+			(at 279.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 273.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a14a3db-789e-40e9-88bc-b32330623f3d")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x07_Socket")
 		(at 262.89 105.41 0)
 		(unit 1)
@@ -3250,7 +3856,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "25a9e805-731c-4169-83e0-07c705c20ebf")
 		(property "Reference" "TCS34725_2"
 			(at 264.16 104.1399 0)
@@ -3262,7 +3867,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Socket"
-			(at 264.16 106.6799 0)
+			(at 263.906 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,6 +3927,140 @@
 			(project "AntaresMainV6"
 				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
 					(reference "TCS34725_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 269.24 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42084c02-8c40-4759-a33b-ebdc4c2048e1")
+		(property "Reference" "100nf3"
+			(at 275.59 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 271.526 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 273.05 113.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a0adbf1-909b-46b9-9c66-dc683d082d08")
+		)
+		(pin "2"
+			(uuid "73387879-6b38-4767-ac5c-e5afdfa656bf")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "100nf3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 212.09 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49b82d0a-98c8-4fc9-b43f-82f4cc51bf49")
+		(property "Reference" "#PWR010"
+			(at 205.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 212.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7df360d5-2e78-41f7-8cdc-b5f890cd3eaf")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3395,6 +4134,140 @@
 			(project "AntaresMainV6"
 				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
 					(reference "Extra_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 273.05 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5097a0fa-8f99-452f-8732-df350cbb52df")
+		(property "Reference" "#PWR06"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 273.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d0301f6-8ac7-491c-8a10-fb51d72e00cb")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 269.24 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57d6174a-9450-491f-ae0f-fe27c670521b")
+		(property "Reference" "100nf4"
+			(at 275.844 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 271.272 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 273.05 118.4148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6da1d8be-203d-4a67-a42a-2a10a38de53b")
+		)
+		(pin "2"
+			(uuid "fd37015e-409c-4c90-8695-eee8fd41e6b4")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "100nf4")
 					(unit 1)
 				)
 			)
@@ -3754,6 +4627,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 269.24 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ecb80f3-c03f-4b57-aadc-8e905981437f")
+		(property "Reference" "100nf6"
+			(at 275.336 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 271.272 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 273.05 153.9748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e868eb2-8e43-4df1-a81f-51bc9d626ed1")
+		)
+		(pin "2"
+			(uuid "9277e375-548d-4b2b-84eb-a9aa2f6ca5b7")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "100nf6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 220.98 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b74316dd-5d32-4e24-b1b5-46dec146c6f1")
+		(property "Reference" "#PWR04"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 220.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38e2f4e6-4ef0-45bd-802e-2c5e97520763")
+		)
+		(instances
+			(project ""
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 262.89 142.24 0)
 		(unit 1)
@@ -3761,10 +4767,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bbe9991f-d437-447e-bfe2-a1e9b697e6da")
 		(property "Reference" "Extra_1"
-			(at 264.16 142.2399 0)
+			(at 266.446 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +4778,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 264.16 144.7799 0)
+			(at 264.16 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,6 +4835,277 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 220.98 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9af6d53-d8c8-43ad-a2ce-df2328552c37")
+		(property "Reference" "100nf2"
+			(at 224.79 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 224.79 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 221.9452 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6cf10ab-ae2e-4a19-819e-24c22e43ce55")
+		)
+		(pin "2"
+			(uuid "d48991ad-f80a-4a0b-9703-439a96953897")
+		)
+		(instances
+			(project ""
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "100nf2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 273.05 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e07f2bd1-6e10-4a5c-8476-e202ac136f82")
+		(property "Reference" "#PWR09"
+			(at 279.4 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 273.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbaf1dcf-865a-4d40-bc6c-0c7e1731b641")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 269.24 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1576b95-30b6-4361-aba8-41f4fb529218")
+		(property "Reference" "100nf1"
+			(at 275.59 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 271.526 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 273.05 94.2848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56868c99-de0e-4e76-b593-b338d30b2342")
+		)
+		(pin "2"
+			(uuid "fb3ad119-7ba5-49dc-8c18-c20333291f3d")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "100nf1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 273.05 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e939a49d-f4c6-4c55-b1d5-99a741f37c5c")
+		(property "Reference" "#PWR05"
+			(at 279.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 273.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b56d408-9a26-41ff-addf-053ffa341db6")
+		)
+		(instances
+			(project "AntaresMainV6"
+				(path "/249a3426-39cb-4659-b770-3d6abd5cd250/9c1fbe05-1220-43f1-a84a-de149b7be6f9"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 262.89 153.67 0)
 		(unit 1)
@@ -3837,10 +5113,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee17421f-8f8a-4bd5-849d-73ed33d6bcf0")
 		(property "Reference" "Extra_2"
-			(at 264.16 153.6699 0)
+			(at 266.446 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +5124,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 264.16 156.2099 0)
+			(at 262.89 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
