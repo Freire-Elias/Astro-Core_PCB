@@ -11,9 +11,6 @@ Este repositório contém todos os arquivos de hardware (PCB e esquemáticos) de
 
 ---
 
-
----
-
 ## 🖼️ Renderização 3D da Placa
 
 ![PCB 3D Render](docs/images/Placa.png)
@@ -21,6 +18,10 @@ Este repositório contém todos os arquivos de hardware (PCB e esquemáticos) de
 ---
 
 ## 📌 Esquemático — Visão Geral
+
+![Schematic](docs/images/PlacaSchematic.png)
+
+---
 
 ## 📜 Licença
 
