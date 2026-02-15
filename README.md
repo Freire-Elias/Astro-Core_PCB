@@ -13,13 +13,13 @@ This repository contains all the hardware files (PCB and schematics) for this bo
 
 ## 3D Board Render
 
-![PCB 3D Render](docs/images/Placa.png)
+![PCB 3D Render](docs/images/PlacaRender.png)
 
 ---
 
 ## Board Schematic
 
-![Schematic](docs/images/PlacaSchematic.png)
+![Schematic](docs/images/PlacaSchema.png)
 
 ---
 
