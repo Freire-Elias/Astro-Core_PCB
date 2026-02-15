@@ -1,38 +1,38 @@
-# ⚡ Astro-Core PCB
+# Astro-Core PCB
 
 Placa de controle baseada em **ESP32**, projetada para a equipe de robótica competitiva OBR **AstroTech**.
 
 ---
 
-## 💡 O que é este projeto
+## What is this project?
 
-Este projeto foi feito com o intuito de criar um módulo central de sensores, controle, motores e monitoramento de um robô OBR.
-Este repositório contém todos os arquivos de hardware (PCB e esquemáticos) desta placa.
+This project was designed to create a central module for sensors, control, motors, and monitoring of an OBR robot.
+This repository contains all the hardware files (PCB and schematics) for this board.
 
 ---
 
-## 🖼️ Renderização 3D da Placa
+## 3D Board Render
 
 ![PCB 3D Render](docs/images/Placa.png)
 
 ---
 
-## 📌 Esquemático — Visão Geral
+## Board Schematic
 
 ![Schematic](docs/images/PlacaSchematic.png)
 
 ---
 
-## 📜 Licença
+## License
 
-Este projeto está sob a licença **MIT**.  
-Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is under license **MIT**.  
+See [LICENSE](LICENSE) for more details.
 
 ---
 
-## 👤 Autor
+## 👤 Author
 
-Feito por **Elias Freire**  
+Created by **Elias Freire**  
 GitHub: https://github.com/Freire-Elias
 
 
